@@ -8,6 +8,15 @@
 - reproject from Web Mercator to EPSG:4326 (Latitude/Longitude) almost three times as fast
 - reproject from UTM to EPSG:4326 about five times as fast
 
+## algorithm
+This basically checks if reprojection within the given bbox can be modeled by the following function without exceeding the error threshold.
+```js
+([x, y]) => ([
+  x_origin + x_scale * (x - xmin), // x_origin is the smallest possible x output value, xmin is from the given bbox
+  y_origin + y_scale * (y - ymin) // y_origin is the smallest possible y output value , ymin is from the given bbox
+]);
+```
+
 ### usage
 ```js
 import proj4 from "proj4";
