@@ -27,6 +27,7 @@ const reproject = proj4("EPSG:4326", "EPSG:3857");
 
 const reprojectFaster = turbocharge(reproject, {
   // container including points to reproject
+  // in the srs that you are reprojecting from
   bbox,
 
   debug_level = 0,
@@ -36,7 +37,7 @@ const reprojectFaster = turbocharge(reproject, {
   // when proj-turbo can't figure out a faster reprojection function
   quiet = false,
 
-  // the reprojection function we want to replace
+  // the reprojection function we want to try to replace
   // with a faster alternative
   reproject,
   
