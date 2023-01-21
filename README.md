@@ -5,9 +5,10 @@
 :fire: Turbo-charge your Re-projection Functions
 
 ## features
-- reproject from Web Mercator to EPSG:4326 (Latitude/Longitude) ~3x faster
-- reproject from UTM to EPSG:4326 ~5x faster
+- reproject from [Web Mercator](https://en.wikipedia.org/wiki/Web_Mercator_projection) to EPSG:4326 (Latitude/Longitude) ~3x faster
+- reproject from [UTM](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system) to EPSG:4326 ~5x faster
 - zero dependencies
+- works great with [proj4js](https://www.npmjs.com/package/proj4)
 
 ## algorithm
 This basically checks if reprojection within the given bbox can be modeled by the following function without exceeding the error threshold.
