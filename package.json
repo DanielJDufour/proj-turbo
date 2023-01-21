@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/DanielJDufour/proj-turbo#readme",
   "devDependencies": {
+    "flug": "^2.3.1",
     "proj4-fully-loaded": "^0.2.0",
     "reproject-bbox": "^0.5.0"
   }
