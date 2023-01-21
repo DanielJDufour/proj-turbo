@@ -1,6 +1,6 @@
 {
   "name": "proj-turbo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Turbo-charge your Re-projection Functions",
   "main": "proj-turbo.js",
   "files": [
