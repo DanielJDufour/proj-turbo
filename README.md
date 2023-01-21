@@ -7,6 +7,7 @@
 ## features
 - reproject from Web Mercator to EPSG:4326 (Latitude/Longitude) ~3x faster
 - reproject from UTM to EPSG:4326 ~5x faster
+- zero dependencies
 
 ## algorithm
 This basically checks if reprojection within the given bbox can be modeled by the following function without exceeding the error threshold.
