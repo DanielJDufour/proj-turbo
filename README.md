@@ -1,5 +1,12 @@
+:warning: this is new and highly experimental and has only been tested on 3 projections so far.  I suggest testing it on your data before using it.
+
+
 # proj-turbo
 :fire: Turbo-charge your Re-projection Functions
+
+## features
+- reproject from Web Mercator to EPSG:4326 (Latitude/Longitude) almost three times as fast
+- reproject from UTM to EPSG:4326 about five times as fast
 
 ### usage
 ```js
