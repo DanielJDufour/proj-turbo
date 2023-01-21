@@ -5,8 +5,8 @@
 :fire: Turbo-charge your Re-projection Functions
 
 ## features
-- reproject from Web Mercator to EPSG:4326 (Latitude/Longitude) almost three times as fast
-- reproject from UTM to EPSG:4326 about five times as fast
+- reproject from Web Mercator to EPSG:4326 (Latitude/Longitude) ~3x faster
+- reproject from UTM to EPSG:4326 ~5x faster
 
 ## algorithm
 This basically checks if reprojection within the given bbox can be modeled by the following function without exceeding the error threshold.
