@@ -1,0 +1,36 @@
+{
+  "name": "proj-turbo",
+  "version": "0.0.0",
+  "description": "Turbo-charge your Re-projection Functions",
+  "main": "proj-turbo.js",
+  "files": [
+    "proj-turbo.js"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/proj-turbo.git"
+  },
+  "keywords": [
+    "coordinates",
+    "geospatial",
+    "gis",
+    "proj",
+    "proj4",
+    "proj4js",
+    "raster",
+    "reprojection"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/proj-turbo/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/proj-turbo#readme",
+  "devDependencies": {
+    "proj4-fully-loaded": "^0.2.0",
+    "reproject-bbox": "^0.5.0"
+  }
+}
